@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.3
+Name: productselector
+Formal-Name: Product Selector
+App-ID: uk.co.codeclear.productselector
+Version: 0.0.1
+Home-page: https://codeclear.co.uk/productselector
+Author: Jon Boland
+Author-email: jon@codeclear.co.uk
+Summary: Recommends products based on feature requirements
