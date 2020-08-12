@@ -17,7 +17,7 @@ PATH = Path(__file__).resolve().parent / FILE_NAME
 class ProductSelector(toga.App):
     def startup(self):
         """Construct and show the application."""
-        if FILE_NAME[-3:] == "csv":
+        if FILE_NAME.endswith(".csva"):
             self.df = pd.read_csv(PATH)
         else:
             self.df = pd.read_excel(PATH, sheet_name="Sheet1")
