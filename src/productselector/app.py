@@ -17,7 +17,7 @@ PATH = Path(__file__).resolve().parent / FILE_NAME
 class ProductSelector(toga.App):
     def startup(self):
         """Construct and show the application."""
-        if FILE_NAME[-3:] == "csv":
+        if FILE_NAME.endswith(".csv"):
             self.df = pd.read_csv(PATH)
         else:
             self.df = pd.read_excel(PATH, sheet_name="Sheet1")
@@ -87,13 +87,14 @@ class ProductSelector(toga.App):
 
     def generate_results(self, button):
         subset_dict = self.filter_products()
-        self.results[0].value = "\n".join(
-            f"{k} - {CURRENCY}{v}" for k, v in subset_dict.items()
-        )
-        if not self.results[0].value:
+        if not subset_dict:
             self.results[0].value = (
                 "Unfortunately no products match your criteria.\n"
                 "Please remove one or more feature requirements and try again."
+            )
+        else:
+            self.results[0].value = "\n".join(
+                f"{k} - {CURRENCY}{v}" for k, v in subset_dict.items()
             )
 
     def filter_products(self):
