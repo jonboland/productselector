@@ -8,7 +8,7 @@ The supplied information is converted into a simple application that makes purch
 recommendations based on the required features selected by a user.
 
 Any type of product can be used as the basis for an application,
-and the number of models that can be included is not limited.
+and the number of product models that can be included is not limited.
 
 Whether each model has one of a small set of key features should be specified
 in the file used to generate the application, along with its price and overall rating.
