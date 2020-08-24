@@ -5,14 +5,14 @@ Product Selector reads a CSV or Excel file containing product details
 and converts them into a simple application that makes purchase
 recommendations based on the required features selected by a user.
 
-Any type of product can be used as the basis for an application,
-and the number of product models that can be included is not limited.
+Any type of product can form the basis of an application,
+and the number of product models which can be included is not limited.
 
 The file used to generate the application should state whether each model
 has a small set of key features, along with the model's price and overall rating.
 
-The file to read, maximum number of results to display, and correct currency
-to use can be specified by updating the associated constants.
+File name, maximum number of results to display, and the correct currency
+are specified by updating the associated constants.
 
 The necessary formatting can be seen in this `sample Product Selector CSV file`_.
 
