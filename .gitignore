@@ -59,8 +59,8 @@ var/
 
 # Briefcase build directories
 iOS/
-macOS/
 windows/
+macOS/
 android/
 linux/
 django/
