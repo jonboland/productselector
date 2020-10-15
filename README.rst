@@ -31,7 +31,7 @@ The installer package file for this example application can be downloaded `here`
 *If you want to see more tools like Briefcase, please consider* `becoming a financial member of BeeWare`_.
 
 
-.. _`sample Product Selector CSV file`: https://github.com/jonboland/productselector/blob/master/src/productselector/securitycameras2.csv
+.. _`example Product Selector CSV file`: https://github.com/jonboland/productselector/blob/master/src/productselector/securitycameras2.csv
 .. _`here`: https://github.com/jonboland/productselector/raw/msi/msi/Product%20Selector-0.0.1.msi
 .. _`Briefcase`: https://github.com/beeware/briefcase
 .. _`The BeeWare Project`: https://beeware.org/
