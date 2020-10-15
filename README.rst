@@ -14,16 +14,16 @@ has a small set of key features, along with the model's price and overall rating
 File name, maximum number of results to display, and the correct currency
 are specified by updating the associated constants.
 
-The necessary formatting can be seen in this `sample Product Selector CSV file`_.
+The necessary formatting can be seen in this `example Product Selector CSV file`_.
 
-The Windows version of the application created with this data looks like this:
+The Windows version of the application created with this example data looks like this:
 
 |
 
 .. figure:: productselectorexample.png
 
 |
-It can be downloaded `here`_.
+The installer package file for this example application can be downloaded `here`_.
 
 
 |
@@ -31,7 +31,7 @@ It can be downloaded `here`_.
 *If you want to see more tools like Briefcase, please consider* `becoming a financial member of BeeWare`_.
 
 
-.. _`sample Product Selector CSV file`: https://github.com/jonboland/productselector/blob/master/src/productselector/securitycameras2.csv
+.. _`example Product Selector CSV file`: https://github.com/jonboland/productselector/blob/master/src/productselector/securitycameras2.csv
 .. _`here`: https://github.com/jonboland/productselector/raw/msi/msi/Product%20Selector-0.0.1.msi
 .. _`Briefcase`: https://github.com/beeware/briefcase
 .. _`The BeeWare Project`: https://beeware.org/
