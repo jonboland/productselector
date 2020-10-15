@@ -14,16 +14,16 @@ has a small set of key features, along with the model's price and overall rating
 File name, maximum number of results to display, and the correct currency
 are specified by updating the associated constants.
 
-The necessary formatting can be seen in this `sample Product Selector CSV file`_.
+The necessary formatting can be seen in this `example Product Selector CSV file`_.
 
-The Windows version of the application created with this data looks like this:
+The Windows version of the application created with this example data looks like this:
 
 |
 
 .. figure:: productselectorexample.png
 
 |
-It can be downloaded `here`_.
+The installer package file for this example application can be downloaded `here`_.
 
 
 |
