@@ -1,8 +1,8 @@
 Product Selector
 ================
 
-Product Selector reads a CSV or Excel file containing product details
-and converts them into a simple application that makes purchase
+Product Selector reads a CSV or Excel file containing product details.
+It then converts them into a simple application that makes purchase
 recommendations based on the required features selected by a user.
 
 Any type of product can form the basis of an application,
